@@ -1,6 +1,6 @@
 [project]
 name = "brutefindsolution"
-version = "1.0.0"
+version = "0.1.0"
 authors = [
   { name="Jack Devilgod", email="devilgods.696@gmail.com" },
 ]
@@ -16,6 +16,7 @@ license-files = ["LICEN[CS]E*"]
 dependencies = [
     "build>=1.6.1",
     "ruff>=0.17.5",
+    "twine>=7.0.0",
 ]
 
 [project.scripts]
