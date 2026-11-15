@@ -1,10 +1,20 @@
 [project]
 name = "brutefindsolution"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+authors = [
+  { name="Jack Devilgod", email="devilgods.696@gmail.com" },
+]
+description = "Simple search package to deal with repetitive implementation of search algorithms"
 readme = "README.md"
 requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 dependencies = [
+    "build>=1.6.1",
     "ruff>=0.17.5",
 ]
 
