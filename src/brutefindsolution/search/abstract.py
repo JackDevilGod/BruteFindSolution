@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from src.brutefindsolution.state import State
 
 
-class search(ABC):
+class Search(ABC):
     def __init__(self, start_state: State) -> None:
         """
         initialize the search with the state you want to start at.
