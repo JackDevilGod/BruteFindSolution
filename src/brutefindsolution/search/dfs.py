@@ -4,7 +4,7 @@ from src.brutefindsolution.search.abstract import Search
 from src.brutefindsolution.state import State
 
 
-class BFS(Search):
+class DFS(Search):
     def search(self) -> State | None:
         if self._start.at_goal():
             return self._start

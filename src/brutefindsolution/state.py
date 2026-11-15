@@ -1,9 +1,10 @@
 from abc import ABC, abstractmethod
+from typing import Self
 
 
 class State(ABC):
     @abstractmethod
-    def update(self) -> list["State"]:
+    def update(self) -> list[Self]:
         """
         updates the current state into all possible next states.
 
